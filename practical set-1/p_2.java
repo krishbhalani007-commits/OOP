@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CramersRule {
+public class p_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
