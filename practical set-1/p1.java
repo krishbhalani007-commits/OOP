@@ -4,16 +4,10 @@ public class MeterToFeet {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input from user
         System.out.print("Enter distance in meters: ");
         double meters = sc.nextDouble();
 
-        // Conversion
         double feet = meters * 3.28084;
-
-        // Output formatted to 2 decimal places
         System.out.printf("Distance in feet: %.2f\n", feet);
-
-        sc.close();
     }
 }
